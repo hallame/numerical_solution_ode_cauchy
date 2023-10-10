@@ -52,9 +52,9 @@ void print_(double* x, double* y, int n)                             //function 
 
 int main()
 {
-    int n;
-    cout << "Enter N: ";
-    cin>> n;                  // n =  8
+    int n = 8;
+    //cout << "Enter N: ";
+   // cin>> n;                  // n =  8
     cout << endl;
    double a = 0, b = pow(4/3, 1/4);
    double* x = X(a, b, n);
